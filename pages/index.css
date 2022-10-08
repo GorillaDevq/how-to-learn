@@ -35,7 +35,7 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/__subtitle/cards__subtitle.css);
+@import url(../blocks/cards/__description/cards__description.css);
 
 /* video section/block ================================================*/
 @import url(../blocks/video/video.css);
@@ -88,14 +88,15 @@
 /* resources section/block ================================================*/
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
-@import url(../blocks/resources/_link/resources_link.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__link/resources__link.css);
 
 /* footer section/block ================================================*/
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__columns/footer__columns\ .css);
-@import url(../blocks/footer/__columns/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css); ;
